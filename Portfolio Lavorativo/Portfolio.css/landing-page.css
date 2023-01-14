@@ -1,26 +1,8 @@
-
-.bgimage{
+.main{
+    width: 100%;
     height: 100vh;
-background:url(https://wallpapercave.com/wp/wp8477833.jpg);
-background-size: cover;
-position: relative;
-
-}
-/*testo dell'immagine*/
-
-.hero-title{
-    font-size: 4.5 rem;}
-
-/*testo descrizione hero*/
-
-.hero-description{
-    font-size: 2rem;
-}
-/*posizione del testo*/
-.hero-description{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: aqua;
+    background:url(images/hero.jpeg);
+    background-size: cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover ;
 }
