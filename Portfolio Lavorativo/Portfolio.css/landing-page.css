@@ -1,11 +1,17 @@
-/* hero background image */
+/* img di hero */
 .bgimage {
     height:100vh;
     background: url('');
     background-size:cover;
     position:relative;
 }
-/* text css above hero image*/
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    min-height: 100vh;
+}
+/* modifiche al testo*/
 .hero_title {
     font-size: 4.5rem;
 }
