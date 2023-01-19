@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*navbar css*/
+.navbar-brand{
+    color: gold;
+}
+
+.nav-link {
+
+    color: gold;
+}
+/*Css dei div con la mia foto e descrizione*/
+
+/* about section image css */
+.foto-personale {
+    max-width: 100%;
+    box-sizing: border-box;
+    border-radius: 50px ;
+    height: 500px;
+}
+/*footer*/
+.footer{
+    background-color: antiquewhite;
+    position: sticky; 
+}
+
+@media screen and (max-width: 768px){
+
+    .footer{
+        width: auto;
+        height: auto;
+    }
+}
