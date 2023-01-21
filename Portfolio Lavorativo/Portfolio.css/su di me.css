@@ -12,20 +12,44 @@
     color: gold;
 }
 /*Css dei div con la mia foto e descrizione*/
-
-/* about section image css */
+.section{/*immagine di background*/
+    background-color: antiquewhite;
+}
+.text-center{
+    font-family:cormoran;
+    font-size: 10vh;
+    text-decoration: underline;
+    background-color: aqua;
+    box-sizing: border-box;
+    border-radius: 10rem;
+    
+}
 .foto-personale {
     max-width: 100%;
     box-sizing: border-box;
     border-radius: 50px ;
     height: 500px;
+    border: 0,5px solid aqua;
+    padding-bottom: 10px;
+}
+.col-lg-3{
+    list-style-type: none;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 20%;
+    height: 20%;
+    margin-left: 30px;
+
+    
+    
 }
 /*footer*/
 .footer{
     background-color: antiquewhite;
     position: sticky; 
 }
-
+/*media query*
 @media screen and (max-width: 768px){
 
     .footer{
