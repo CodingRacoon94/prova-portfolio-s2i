@@ -13,8 +13,7 @@
 }
 /*Css dei div con la mia foto e descrizione*/
 .section{/*immagine di background*/
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%);)
-}
+    background: linear-gradient(90deg, rgba(92,178,112,1) 0%, rgba(244,242,105,1) 100%)}
 .text-center{
     font-family:cormoran;
     font-size: 10vh;
@@ -22,6 +21,7 @@
     box-sizing: border-box;
     border-radius: 1rem;
     overflow: hidden;
+    padding-bottom: 10px;
     
 }
 .foto-personale {
@@ -29,19 +29,11 @@
     box-sizing: border-box;
     border-radius: 50px ;
     height: 500px;
-    border: 1vh 
+    border: 1vh;
     padding-bottom: 10px;
 
 }
-.col-lg-3{
-    list-style-type: none;
-    box-sizing: border-box;
-    border: 1px solid black;
-    border-radius: 10px;
-    width: 20%;
-    height: 20%;
-overflow: hidden;  
-}
+
 .col-lg-8{
     text-align: center;
     padding-top: 50px;
@@ -51,6 +43,9 @@ overflow: hidden;
 .col-md-4{
 text-align: center;
 text-decoration: underline;
+box-sizing: border-box;
+border-radius: 10px;
+color: white;
 }
 .col-lg-12{
     margin-left: 10px;
@@ -58,6 +53,10 @@ text-decoration: underline;
     padding-top: 50px;
     font-family: cormoran;
     font-size: 3vh;
+}
+.card{
+    background-color: navajowhite;
+    color: black;
 }
 /*footer*/
 .footer{
