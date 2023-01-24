@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*navbar css*/
+.navbar-brand{
+    color: gold;
+}
+
+.nav-link {
+
+    color: gold;
+}
+/*immagine hero*/
+.hero{
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    
+}
+/*Css per background card progetti*/
+/*bg card*/
+.project-grid{
+    background-color: aliceblue;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+/*spazio tra le card*/
+.col-md-4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card{
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: #daa90a solid;
+    
+}
+
+/*footer*/
+.footer{
+    background-color: antiquewhite;
+    position: sticky; 
+}
+@media screen and (max-width: 768px){
+
+    .footer{
+        width: auto;
+        height: auto;
+    }
+}
