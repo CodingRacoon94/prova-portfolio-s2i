@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+s
 /*navbar css*/
 .navbar-brand{
     color: gold;
@@ -11,6 +12,7 @@
 
     color: gold;
 }
+.title
 /*immagine hero*/
 .hero{
     background-color: #85FFBD;
@@ -20,7 +22,9 @@
 /*Css per background card progetti*/
 /*bg card*/
 .project-grid{
-    background-color: aliceblue;
+    background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
     box-sizing: border-box;
     border-radius: 10px;
 }
@@ -28,14 +32,27 @@
 .col-md-4{
     padding-top: 10px;
     padding-bottom: 10px;
+    
 }
+/*custom delle card*/
 .card{
     box-sizing: border-box;
     border-radius: 5px;
-    border: #daa90a solid;
-    
+    border: #daa90a solid;  
 }
-
+/*custom btn*/
+.btn{
+    color:white ;
+    background-color: #3bcc7f;
+}
+.btn:hover{
+    color: #daa90a;
+    background-color:#FFFB7D
+}
+.btn::after{
+    color: black;
+    background-color: white;
+}
 /*footer*/
 .footer{
     background-color: antiquewhite;
