@@ -35,7 +35,7 @@
 font-style: italic;    
 }
 .main-title button{
-margin-top: 20px;
+margin-top: 80px;
     box-sizing: border-box;
     color: crimson;
     background-color: white;
@@ -44,7 +44,19 @@ margin-top: 20px;
     color:white ;
     background-color: red;
 }
-
+.footer{
+    color: brown;
+    background-color: rgb(231, 225, 218);
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 20px;
+    position: sticky;
+    
+    
+}
+.footer li{
+    font-weight: 500;
+}
 
 /*media query*/
 @media screen and (max-width: 768px){
@@ -66,5 +78,6 @@ margin-top: 20px;
     .footer{
         width: auto;
         height: auto;
+        position: sticky;
     }
 }
