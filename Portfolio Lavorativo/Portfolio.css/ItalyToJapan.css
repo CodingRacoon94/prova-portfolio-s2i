@@ -1,8 +1,17 @@
 .hero{
-    background: black;
+    background:rgb(87, 7, 7);
     background-size: cover;
     max-height: 100%;
 max-width: 100%;
+}
+.hero h1{
+    color:red;
+    font-weight: 800;
+    font-size: 3rem;
+}
+.hero h2{
+    color:whitesmoke;
+    margin-left: 20px;
 }
 /*stile del primo container flex*/
 .flex-container1{
@@ -44,6 +53,10 @@ flex: 100;
     border-radius: 10px;
     margin-left: 20px;
 }
+.box-2 h4{
+    color: white;
+    margin-left:20px;
+}
 
 .box-2 img{
     padding-top: 10px;
@@ -55,13 +68,20 @@ flex: 100;
     flex: 100;
 }
 .box-3 h3{
+    margin-left: 20px;
     color: white;
 }
+.box-3 h4{
+    color: white;
+    margin-left: 20px;
+}
 .box-3 h5{
+    margin-left: 20px;
     color: white;
 }
 .box-3 img{
     margin-bottom: 20px;
+
 }
 /*stile del secondo container flex con text*/
 .text{
@@ -70,6 +90,11 @@ flex: 100;
 }
 .text h1{
     text-decoration: underline;
+    font-size: 2rem;
+    
+}
+.text h4{
+    margin-left: 20px;
 }
 /*stile del box flex-prices*/
 .flex-prices{
@@ -77,18 +102,41 @@ flex: 100;
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 .price-1{
+    color: white;
     margin-left: 20px;
     margin-bottom: 20px;
     flex: 100;
 }
 .price-2{
+    color: white;
     margin-left: 20px;
     margin-bottom: 20px;
     flex: 100;
 }
 .price-3{
+    color: white;
     margin-left: 20px;
     margin-bottom: 20px;
     flex: 100;
+}
+.btn{
+    color: red;
+    background-color: white;
+}
+.btn:hover{
+    color: white;
+    background-color: red;
+}
+.btn:active{
+    color: black;
+    background-color: red;
+}
+.footer{
+    color: white;
+    width: auto;
+    height: auto;
+    position: sticky;
+    background-color: crimson;
 }
