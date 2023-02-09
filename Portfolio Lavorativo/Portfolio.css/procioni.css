@@ -1,0 +1,99 @@
+.hero{
+    background-image: url(https://wallpapercave.com/wp/wp2020778.jpg);
+background-size: cover;
+    height: 100%;
+width: 100%;
+
+}
+.hero header{
+    font-size: 40px;
+    color: bisque;
+    text-decoration: underline;
+    background-color: black;
+
+}
+/*css container1*/
+.container-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-1{
+    margin-left: 10px;
+}
+.box-1 h4{
+    color: white;
+    padding-bottom: 10px;
+}
+.box-1 img{
+    box-sizing: border-box;
+    border: 5px gold solid;
+}
+.box-1 p{
+    color:salmon;
+    text-decoration: underline;
+}
+/*container-2*/
+.container-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container-2 h1{
+    color: gold;
+    margin-left: 10px;
+}
+.box-2 h4{
+    color: white;
+    text-decoration:underline;
+    margin-left: 10px;
+}
+.box-2 h5{
+    color: white;
+    margin-left: 10px;
+}
+.box-2 img{
+    box-sizing: border-box;
+border: 5px solid sandybrown;
+align-self: center;
+margin-left: 10px;
+}
+.box-2 p{
+    color: gold;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+/*box-3*/
+
+.box-3 h4{
+    color: white;
+    text-decoration: underline;
+    margin-left: 10px;
+}.box-3 h5{
+    color: white;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.box-3 img{
+    float: right;
+    margin-right: 45px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: 5px solid white;
+}
+/*container-3*/
+.container-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box-4 img{
+    box-sizing: border-box;
+    border: 5px solid white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.box-5{
+    flex: 100;
+    color: white;
+    margin-left: 10px;
+}
