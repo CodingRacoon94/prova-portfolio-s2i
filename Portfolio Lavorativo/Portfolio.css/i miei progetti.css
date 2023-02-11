@@ -71,14 +71,26 @@ margin-left: 10px;margin-bottom: 5px;}
 }
 /*footer*/
 .footer{
-    background-color: #30c073;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #85FFBD;
     background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
-    
 }
-@media screen and (max-width: 768px){
-
-    .footer{
-        width: auto;
-        height: auto;
-    }
+.contatti{
+    margin-top: 20px;
+    flex: 100;
+    color: blue;
+    margin-left: 10px;
+}
+.Ritorna{
+    margin-top: 20px;
+    margin-right: 120px;
+    color: blue;
+}
+.copyright{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: blue;
 }
