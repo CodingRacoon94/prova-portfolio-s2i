@@ -19,20 +19,22 @@
     background: linear-gradient(90deg, rgba(92,178,112,1) 0%, rgba(244,242,105,1) 100%)}
 .text-center{
     font-family:cormoran;
-    font-size: 10vh;
+    font-size: 7vh;
+    text-decoration: underline;
+    color: white;
     background-color: navajowhite;
     box-sizing: border-box;
     border-radius: 1rem;
     overflow: hidden;
-    padding-bottom: 10px;
+    margin: 15px;
+    margin-right: 10px;
     
 }
 .foto-personale {
     max-width: 100%;
     box-sizing: border-box;
-    border-radius: 50px ;
+    border-radius: 50px;
     height: 500px;
-    border: 1vh;
     padding-bottom: 10px;
 
 }
@@ -42,6 +44,8 @@
     padding-top: 50px;
     font-family: cormoran;
     font-size: 3vh;
+    box-sizing: border-box;
+    border: 5px solid white;
 }
 .col-md-4{
 text-align: center;
@@ -57,11 +61,15 @@ color: white;
     font-family: cormoran;
     font-size: 3vh;
 }
+.col-lg-12 p{
+    margin: 20px;
+}
 .col-md-4{
     color:white;
 }
 .card{
     background-color:rgb(128, 175, 56);
+    margin: 10px;
 }
 /*immagine Hero*/
 .hero{
