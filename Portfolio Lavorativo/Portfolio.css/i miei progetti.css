@@ -22,22 +22,25 @@
 .header{
     font-size: 60px;
     text-decoration: underline;
+    text-decoration-color:white ;
+    color: blue;
+    
 }
 .description{
-    margin-left: 10px;
+    margin:20px
 }
 /*Css per background card progetti*/
 /*bg card*/
-.flex-container1{
+.grid-wrapper{
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     flex-wrap: wrap;
     background-color: #FFDEE9;
 background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
     gap: 10px;
     padding-top: 10px;
 }
-/*personalizzazione delle card*/
+/*personalizzazione card*/
 .box-1{
    flex:100;
    margin-left: 10px;
@@ -49,7 +52,6 @@ margin-left: 10px;margin-bottom: 5px;}
 .box-4{flex: 100;margin-left: 10px;margin-bottom: 5px;}
 .box-5{flex: 100;margin-left: 10px;margin-bottom: 5px;}
 .box-6{flex: 100;margin-left: 10px;margin-bottom: 5px;}
-
 /*custom delle card*/
 .card{
     box-sizing: border-box;
