@@ -1,8 +1,9 @@
 .main{
     width: 100%;
     height: 100%;
-    background: url(https://wallpapercave.com/wp/wp4078415.jpg);
+    background: url(https://wallpapercave.com/wp/wp4078364.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     -webkit-background-size:cover;
     -moz-background-size:cover;
 }
@@ -86,22 +87,17 @@
     margin-left: 30px;
 
 }
-.main-2{
-    width: 100%;
-    height: 100vh;
-    background: url(images/pianeta\ in\ fiamme.jpeg);
-    background-size: cover;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-}
-.main-content2{
-    height: 100%;
-    
-}
-.main-text2 h1{
-    color: white;
-    padding-top: 50px;
-    text-align: center;
-    font-size: 60px;
 
+@media only screen and(max-width:768px){
+    .main{
+        height: auto;
+    }
+    .mainc-content{
+        width: auto;
+    }
+    .main-title{
+        padding: 140px 15px 40px;
+        text-align: center;
+    }
 }
+ 
