@@ -31,7 +31,6 @@
     font-size: 40px;
     color: rgb(255, 255, 255);
     margin-bottom: 20px;
-
     line-height: 45px;
 }
 .main-title h2{
@@ -59,23 +58,31 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #85FFBD;
-    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    background-color: #c6d0cb;
+    background-image: linear-gradient(45deg, #f0b217c6 0%, #ecebde 100%);
 }
 .contatti{
+    text-decoration: underline;
+    text-decoration-color: white;
     margin-top: 20px;
     flex: 100;
     color: blue;
-    margin-left: 10px;
+    margin-left: 20px;
+    font-size: 25px
 }
 .Ritorna{
+    text-decoration: underline;
+    text-decoration-color: white;
     margin-top: 20px;
     margin-right: 120px;
     color: blue;
+    font-size: 25px;
 }
+
 .copyright{
     margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     color: blue;
+    font-size: 25px;
 }

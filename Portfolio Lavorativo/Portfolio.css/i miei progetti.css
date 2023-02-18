@@ -15,8 +15,8 @@
 
 /*immagine hero*/
 .hero{
-    background-color: #85FFBD;
-    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    background-color: #c4ecf9;
+    background-image: linear-gradient(45deg, #cbfdfc 0%, #a8e6f1 100%);
     
 }
 .header{
@@ -31,7 +31,7 @@
 }
 /*Css per background card progetti*/
 /*bg card*/
-.grid-wrapper{
+.flex-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -43,15 +43,15 @@ background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
 /*personalizzazione card*/
 .box-1{
    flex:100;
-   margin-left: 10px;
+   margin:20px;
    margin-bottom: 5px;
 }
 .box-2{flex: 100;
-margin-left: 10px;margin-bottom: 5px;}
-.box-3{flex: 100;margin-left: 10px;margin-bottom: 5px;}
-.box-4{flex: 100;margin-left: 10px;margin-bottom: 5px;}
-.box-5{flex: 100;margin-left: 10px;margin-bottom: 5px;}
-.box-6{flex: 100;margin-left: 10px;margin-bottom: 5px;}
+margin:20px;margin-bottom: 5px;}
+.box-3{flex: 100;margin: 20px;margin-bottom: 5px;}
+.box-4{flex: 100;margin:20px;margin-bottom: 5px;}
+.box-5{flex: 100;margin:20px;margin-bottom: 5px;}
+.box-6{flex: 100;margin:20px;margin-bottom: 5px;}
 /*custom delle card*/
 .card{
     box-sizing: border-box;
@@ -76,23 +76,31 @@ margin-left: 10px;margin-bottom: 5px;}
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #85FFBD;
-    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    background-color: #edaaee;
+    background-image: linear-gradient(45deg, #e7bbd9 0%, #e7a8da 100%);
 }
 .contatti{
+    text-decoration: underline;
+    text-decoration-color: white;
     margin-top: 20px;
     flex: 100;
     color: blue;
-    margin-left: 10px;
+    margin-left: 20px;
+    font-size: 25px
 }
 .Ritorna{
+    text-decoration: underline;
+    text-decoration-color: white;
     margin-top: 20px;
     margin-right: 120px;
     color: blue;
+    font-size: 25px;
 }
+
 .copyright{
     margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     color: blue;
+    font-size: 25px;
 }
