@@ -1,106 +1,91 @@
-*{
-    margin: 0;
-    padding: 0;
+
+.hero {
+background-color:#FFF;
 }
 
-/*navbar css*/
-.navbar-brand{
-    color: white;
+.header {
+font-size:60px;
+text-decoration:underline;
+text-decoration-color:#FFF;
+background: rgb(190, 209, 190);
 }
 
-.nav-link {
-
-    color: white;
+.description {
+margin:20px;
 }
 
-/*immagine hero*/
-.hero{
-    background-color: #c4ecf9;
-    background-image: linear-gradient(45deg, #cbfdfc 0%, #a8e6f1 100%);
-    
-}
-.header{
-    font-size: 60px;
-    text-decoration: underline;
-    text-decoration-color:white ;
-    color: blue;
-    
-}
-.description{
-    margin:20px
-}
-/*Css per background card progetti*/
-/*bg card*/
-.flex-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: #FFDEE9;
-background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
-    gap: 10px;
-    padding-top: 10px;
-}
-/*personalizzazione card*/
-.box-1{
-   flex:100;
-   margin:20px;
-   margin-bottom: 5px;
-}
-.box-2{flex: 100;
-margin:20px;margin-bottom: 5px;}
-.box-3{flex: 100;margin: 20px;margin-bottom: 5px;}
-.box-4{flex: 100;margin:20px;margin-bottom: 5px;}
-.box-5{flex: 100;margin:20px;margin-bottom: 5px;}
-.box-6{flex: 100;margin:20px;margin-bottom: 5px;}
-/*custom delle card*/
-.card{
-    box-sizing: border-box;
-    border-radius: 5px;
-    border: #daa90a solid;  
-}
-/*custom btn*/
-.btn{
-    color:white ;
-    background-color: #3bcc7f;}
-
-.btn:hover{
-    color: #daa90a;
-    background-color:#FFFB7D
-}
-.btn::after{
-    color: black;
-    background-color: white;
-}
-/*footer*/
-.footer{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: #edaaee;
-    background-image: linear-gradient(45deg, #e7bbd9 0%, #e7a8da 100%);
-}
-.contatti{
-    text-decoration: underline;
-    text-decoration-color: white;
-    margin-top: 20px;
-    flex: 100;
-    color: blue;
-    margin-left: 20px;
-    font-size: 25px
-}
-.Ritorna{
-    text-decoration: underline;
-    text-decoration-color: white;
-    margin-top: 20px;
-    margin-right: 120px;
-    color: blue;
-    font-size: 25px;
+.flex-container {
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+background: rgb(190, 209, 190);
+gap:10px;
+padding-top:10px;
 }
 
-.copyright{
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    color: blue;
-    font-size: 25px;
+.card {
+box-sizing:border-box;
+border-radius:5px;
+border:#daa90a solid;
+}
+
+.btn {
+color:#FFF;
+background-color:#3bcc7f;
+}
+
+.btn:hover {
+color:#daa90a;
+background-color:#FFFB7D;
+}
+
+.btn::after {
+color:#000;
+background-color:#FFF;
+}
+
+.footer {
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+background-color: #404543;
+}
+
+.contatti {
+text-decoration:underline;
+text-decoration-color:#FFF;
+margin-top:20px;
+flex:100;
+color:white;
+margin-left:20px;
+font-size:25px;
+}
+
+.Ritorna {
+text-decoration:underline;
+text-decoration-color:black;
+margin-top: 20px;
+margin-right: 120px;
+color:white;
+font-size:25px;
+}
+
+.copyright {
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+    color:white;
+    font-size:25px;
+    }
+
+.navbar-brand,.nav-link{
+color:#FFF;
+}
+.navbar-brand,.nav-link:hover{
+    color: gold;
+}
+
+.box-1,.box-2,.box-3,.box-4,.box-5,.box-6 {
+flex:100;
+margin:20px 20px 5px;
 }

@@ -4,15 +4,13 @@
     background: url(https://wallpapercave.com/wp/wp4078364.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
 }
 .main-content{
     height: 100%;
     
 }
 .main-text h1{
-    color: white;
+    color: #fff;
     padding-top: 50px;
     text-align: center;
     font-size: 60px;
