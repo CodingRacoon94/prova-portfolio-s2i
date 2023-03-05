@@ -6,21 +6,9 @@ height: 100vh;
 }
 h3{
     color: white;
-    font-size: 2rem;
-    font-family: cormoran;
-    text-decoration: underline;
-    text-decoration-color: gold;
+    font:2rem cormoran;
 }
-/*
-input [type=text], input[type=password]{
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid white;
-    box-sizing: border-box;
-}
-*/
+
 input[type=text]{
     display: flex;
   margin-right: 50px;
@@ -29,30 +17,25 @@ input[type=text]{
 button{
     background-color: black;
     color: gold;
-    padding: 14px 20px;
-    margin: 8px 0;
     box-sizing: border-box;
     border: 2px solid;
     border-radius:6px;
-    cursor: pointer;
-    margin-top: 20px;
+    margin: 20px;
     
 }
 button:hover{
     opacity: 0.8;
 }
-
 .container{
     background-color: white;
     display: flex;
-    flex-direction:column;
-    flex-wrap: wrap;
+   flex-flow: column;
     padding: 16px;
 }
 .info{
     flex: 100;
 }
-img{
+.img{
     margin: 20px;
 }
 .checked{
@@ -60,7 +43,7 @@ img{
 }
 .forgot{
     float: right;
-    padding-top: 16px;
+    padding:16px;
     background-color: antiquewhite;
     box-sizing: border-box;
     border-radius: 2px;
