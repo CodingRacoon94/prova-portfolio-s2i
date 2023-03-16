@@ -58,39 +58,30 @@
 }
 .box-3 h5{
     background-color: antiquewhite;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 6px;
-    margin-left: 10px;}
+    margin: 6px 30px;}
 
 .box-4{
     padding-top: 10px;
 }
 .box-4 h2{
-    color: red;
-    text-decoration: underline;
+    color: red;text-decoration: underline;
 }
-.box-4 p{
+.box-4 p ,h5 {
     font-size: 1.2em;
     background-color: antiquewhite;
     box-sizing: border-box;
     border: solid;
     border-radius: 5px solid;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin:30px;
 
 }
-.box-4 h5{
-    margin-right: 30px;
-    margin-left: 30px;
 
-}
 
 @media only screen and(max-width:768px){
     .main{
         height: auto;
     }
-    .mainc-content{
+    .main-content{
         width: auto;
     }
     .main-title{
@@ -98,4 +89,3 @@
         text-align: center;
     }
 }
- 
