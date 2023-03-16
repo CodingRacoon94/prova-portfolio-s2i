@@ -1,3 +1,9 @@
+.navbar-brand,.nav-link{
+    color:#FFF;
+    }
+    .navbar-brand,.nav-link:hover{
+        color: gold;
+    }
 .main{
     width: 100%;
     height: 100%;
@@ -7,20 +13,16 @@
 }
 .main-content{
     height: 100%;
-    
 }
 .main-text h1{
     color: #fff;
     padding-top: 50px;
     text-align: center;
     font-size: 60px;
-
 }
 .flex-container{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
+    flex-flow: row wrap;
 }
 .box-1 h2{
     color: red;
@@ -28,33 +30,20 @@
 }
 .box-1 ul{
     box-sizing: border-box;
-    margin-right: 30px;
-    margin-left: 30px;
     background-color: antiquewhite;
     list-style-type:bullet;
     padding-bottom: 10px;
 }
-.box-1,h4{
-    margin-right: 30px;
-    margin-left: 30px;
+.box-1,h4,ul{
+   margin: 30px;
 }
 .box-2{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    
+    margin: 10px;
 }
-.box-3{
-   display: flex;
-   flex-wrap: wrap;
-   margin: 20px;
-}
-.box-3 h3{
+.box-3, h3{
     margin-left: 20px;
-    color: red;
+    color:black;
     text-decoration: underline;
-
 }
 .box-3 h5{
     background-color: antiquewhite;
@@ -75,8 +64,6 @@
     margin:30px;
 
 }
-
-
 @media only screen and(max-width:768px){
     .main{
         height: auto;
