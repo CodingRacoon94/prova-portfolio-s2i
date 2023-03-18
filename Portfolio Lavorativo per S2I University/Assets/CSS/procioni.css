@@ -1,3 +1,9 @@
+.navbar-brand,.nav-link{
+    color:#FFF;
+    }
+    .navbar-brand,.nav-link:hover{
+        color: gold;
+    }
 .hero{
     
     background-image: url(https://wallpapercave.com/wp/wp8759475.jpg);

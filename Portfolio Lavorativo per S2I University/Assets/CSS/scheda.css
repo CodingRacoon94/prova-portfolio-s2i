@@ -31,6 +31,8 @@ button:hover{
     display: flex;
    flex-flow: column;
     padding: 16px;
+    margin: 30px;
+    
 }
 .info{
     flex: 100;
@@ -47,4 +49,19 @@ button:hover{
     background-color: antiquewhite;
     box-sizing: border-box;
     border-radius: 2px;
+}
+.footer{
+    display: flex;
+    flex: row-wrap;
+    background: black;
+    color: #FFF;
+}
+.Ritorna{
+    flex: 100px;
+    margin: 20px;
+    font-size: 25px;
+}
+.copyright{
+    font:cormoran;
+    margin: 20px;
 }
