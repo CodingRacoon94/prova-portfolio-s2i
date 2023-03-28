@@ -9,6 +9,7 @@
     color:white;
     font-weight:800;
     font-size:3rem;
+    text-align: center;
     }
     .hero h2 {
     color:#F5F5F5;
@@ -35,6 +36,7 @@
     }
     .text h1 {
         font-size: 2rem;
+        text-align: center;
     text-decoration:underline;
     }
     .text h4 {

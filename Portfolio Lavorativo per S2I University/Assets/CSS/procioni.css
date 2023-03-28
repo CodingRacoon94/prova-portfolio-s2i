@@ -5,17 +5,18 @@
         color: gold;
     }
 .hero{
-    
     background-image: url(https://wallpapercave.com/wp/wp8759475.jpg);
 background-size: cover;
 max-height: 100%;
 width: 100%;
-  
 }
 .hero{
     background-color: black;
     color: bisque;
     font-size: 40px;
+}
+.header{
+    text-align: center;
 }
 /*css container1*/
 .container-1{
@@ -103,6 +104,9 @@ margin-left: 10px;
     display: flex;
     flex-direction: column;
     margin: 40px;
+}
+.h3{
+    text-align: center;
 }
 .box-8{
     color: white;

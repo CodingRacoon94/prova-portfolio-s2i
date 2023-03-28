@@ -7,6 +7,8 @@ height: 100vh;
 h3{
     color: white;
     font:2rem cormoran;
+    padding: 10px 0 0 0;
+    text-align: center;
 }
 
 input[type=text]{
@@ -29,7 +31,7 @@ button:hover{
 .container{
     background-color: white;
     display: flex;
-   flex-flow: column;
+   flex-flow: column wrap;
     padding: 16px;
     margin: 30px;
     
@@ -62,6 +64,7 @@ button:hover{
     font-size: 25px;
 }
 .copyright{
+    flex: 100px;
     font:cormoran;
     margin: 20px;
 }
