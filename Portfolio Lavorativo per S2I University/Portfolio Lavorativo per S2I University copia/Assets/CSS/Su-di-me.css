@@ -1,0 +1,56 @@
+.navbar-brand,.nav-link{
+    color:#FFF;
+    }
+    .navbar-brand,.nav-link:hover{
+        color: gold;
+    }
+/*Css dei div con la mia foto e descrizione*/
+.section{
+    background: rgb(190, 209, 190);
+   width:100%;
+height: 100%;}
+
+.foto-personale {
+    max-width: 100%;
+    border-radius: 50px;
+    height: 500px;
+    padding-bottom: 10px;
+}
+
+.col-lg-8{
+    text-align: center;
+    padding-top: 50px;
+    font: 3vh cormoran;
+    box-sizing: border-box;
+    border: 5px solid white;
+}
+.col-md-4{
+text-align: center;
+text-decoration: underline;
+color: white;
+}
+.col-lg-12 p {
+    margin: 40px;
+    padding-top: 50px;
+    font:3vh cormoran;
+}
+
+.card{
+    background-color:rgb(123, 127, 116);
+    margin: 10px;
+}
+.footer{
+    display: flex;
+    flex: row-wrap;
+    background: black;
+    color: #FFF;
+}
+.contatti,.Ritorna{
+    flex: 100px;
+    margin: 20px;
+    font-size: 25px;
+}
+.copyright{
+    font-family: cormoran;
+    margin: 20px;
+}
