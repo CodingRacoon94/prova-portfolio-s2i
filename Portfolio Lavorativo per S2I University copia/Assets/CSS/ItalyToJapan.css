@@ -1,0 +1,96 @@
+
+    .hero {
+    background:#570707;
+    background-size:cover;
+    max-height:100%;
+    max-width:100%;
+    }
+    .hero h1{
+    color:white;
+    font-weight:800;
+    font-size:3rem;
+    text-align: center;
+    }
+    .hero h2 {
+    color:#F5F5F5;
+    margin-left:20px;
+    }
+    .flex-container1 {
+    display:flex;
+    flex-flow:row wrap;
+    gap:10px;
+    }
+    .box-1 img {
+    margin: 0 0 10px 20px;
+    }
+    .box-2 img {
+        margin: 20px;
+    padding-top:10px;
+    }
+    .box-3 img {
+    margin-bottom:20px;
+    }
+    .text {
+        color: #FFF;
+    margin-bottom:20px;
+    }
+    .text h1 {
+        font-size: 2rem;
+        text-align: center;
+    text-decoration:underline;
+    }
+    .text h4 {
+    margin-left:20px;
+    }
+    .flex-prices {
+    display:flex;
+    flex-flow: row wrap;
+    }
+    .btn {
+    background-color:#FFF;
+    color: red;
+    }
+    .btn:hover {
+    background-color:red;
+    color: #FFF;
+    }
+    .btn:active {
+    background-color:red;
+    color: #000;
+    }
+    .box-1,.box-2,.box-3 {
+    flex:100;
+    }
+    .box-1 h3,.box-1 h5,.box-2 h3,.box-2 h5 {
+        border-radius: 10px;
+    color:#FFF;
+    margin-left:20px;
+    }
+    .box-2 h4,.box-3 h4 {
+    color:#FFF;
+    margin-left:20px;
+    }
+    .box-3 h3,.box-3 h5 {
+        color: #FFF;
+    margin-left:20px;
+    }
+    .price-1,.price-2,.price-3 {
+    color:#FFF;
+    flex:100;
+    margin: 0 0 20px 20px;
+    }
+    .footer{
+        background: #000;
+        color: #FFF;
+        display: flex;
+        flex: row-wrap;
+    }
+    .Ritorna{
+        flex: 100px;
+        font-size: 25px;
+        margin: 20px;
+    }
+    .copyright{
+        font:cormoran;
+        margin: 20px;
+    }
